@@ -1,0 +1,31 @@
+/* @override http://localhost/thacker/sites/all/themes/thacker/css/local.css */
+
+/* @override http://localhost/thacker/sites/all/themes/thacker/css/local.css */
+
+/* $Id: local-sample.css,v 1.1.2.1 2010/01/11 00:08:12 sociotech Exp $ */
+
+/****************************/
+/* LOCAL CSS                */
+/****************************/
+
+/* Put your custom CSS and CSS overrides in this file and  */
+/* rename it local.css.  By restricting your CSS changes   */
+/* to local.css, your changes will not be overwritten when */
+/* upgrading to a new version of this theme.  You can also */
+/* use a local-rtl.css file for the equivalent in RTL.     */
+
+/* Steps to activate local.css:                       */
+/* 1. Add your custom CSS to this file                */
+/* 2. Rename this file to local.css                   */
+/* 3. Clear cached data at admin/settings/performance */
+
+
+#block-block-1 div.inner.clearfix div.content.clearfix p a {
+
+		background-color: #1784BF;
+		font: 1.1em 'DaysRegular';
+		color: #fff;
+		padding: 4px 12px;
+		float: right;
+}
+

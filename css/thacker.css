@@ -1,0 +1,1800 @@
+/* Basic Typography & Colors
+-------------------------------------------------------------- */
+
+body {
+	font-size: 1em;
+	color: #4a4a4a;
+}
+
+a,
+a:link,
+a:visited {
+	text-decoration: underline;
+	font-style: italic;
+	color: #4a4a4a;
+}
+
+a:hover,
+a:focus,
+a:active {
+	color: #000;
+}
+
+h1, h4, h5, h6 {
+	color: #000;
+}
+
+h2, h3 {
+	color: #1786C1;
+}
+
+h1 {
+	font-size: 2em;
+}
+
+h2 {
+	font-size: 1.8em;
+}
+
+h3 {
+	font-size: 1.6em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	text-transform: uppercase;
+}
+
+/* Specific Typography
+-------------------------------------------------------------- */
+
+#site-name {
+	font-size: 300%;
+	line-height: 150%;
+}
+
+.footer-message {
+	font-size: 90%;
+}
+
+/* HTML Elements
+-------------------------------------------------------------- */
+
+body {
+	background-color: #d1e7f3;
+	padding-top: 38px;
+}
+
+/* Site Info
+-------------------------------------------------------------- */
+
+/* Wrapper around logo, site name, and slogan */
+
+#header-site-info {
+	position: absolute;
+	top: 0;
+}
+
+.header-site-info span {
+	display: block;
+}
+
+/* Add float here to put logo and site name side by side, also add margins as
+  needed */
+
+#logo img {
+	-moz-box-shadow: 0 0 5px #aaa;
+	-webkit-box-shadow: 0 0  5px #aaa;
+	box-shadow: 0 0  5px #aaa;
+}
+
+#logo a {
+	overflow: hidden;
+}
+
+/* Link and hover styles for site name */
+
+#site-name a:link,
+#site-name a:visited,
+#site-name a:hover,
+#site-name a:active {
+	
+}
+
+/* Typography for site slogan */
+
+#slogan {
+	
+}
+
+/* Regions
+
+  Classes (.region-name) should always be used instead of IDs (#region-name) so
+  that Skinr styles can override them with a class later
+-------------------------------------------------------------- */
+
+/* All Regions
+-------------------------------------------------------------- */
+
+/* By default this wrapper is set to 100% width and centered -- override here to
+  narrow wrapper or align left or right */
+
+.page {
+	
+}
+
+/* The 0 values here remove padding and spacing at the bottom of the page.
+  Remove to add a gap at the very bottom of the page */
+
+.page-inner {
+	border: 0;
+	margin-bottom: 0;
+	padding: 0;
+}
+
+/* Header Regions
+-------------------------------------------------------------- */
+
+/* Header Top region to the bottom of Header region */
+
+/* For full-width header background, add background image/color here */
+
+.header-group-wrapper {
+	background-color: #fff;
+	background-image: url(../images/01.png);
+	background-position: center 87px;
+	background-repeat: no-repeat;
+	height: 100px;
+}
+
+#zeroum {
+	border-bottom: solid 5px #82A983;
+}
+
+/* Header Top region which sits above the header */
+
+/* Works well with inline login or inline menu block style */
+
+.header-top-wrapper {
+	
+}
+
+.header-top {
+	overflow: visible;
+}
+
+#block-block-5, #block-user-0 {
+	float: right;
+	overflow: visible;
+	margin-right: 26px;
+	color: #00476d;
+}
+
+#block-block-5 a {
+	color: #00476d;
+}
+
+#bemvindo div.imagem {
+	float: left;
+	margin: 0 10px 0px 0;
+	padding: 2px;
+	background: #dce6dc;
+	height: 38px;
+	border-bottom: solid 1px #a5b9a5;
+	border-right: solid 1px #9fb2a2;
+	border-left: solid 1px #dbe9db;
+	border-top: solid 1px #dce6dc;
+	-moz-box-shadow: 0 0 5px #aaa;
+	-webkit-box-shadow: 0 0  5px #aaa;
+	box-shadow: 0 0  5px #aaa;
+}
+
+#logout {
+	float: right;
+	margin-top: 8px;
+}
+
+#bemvindo, .bemvindo div.content {
+	background-color: #93BDD3;
+	position: absolute;
+	top: 0px !important;
+	z-index: 100 !important;
+	width: 406px !important;
+	margin-top: -38px;
+	padding: 10px !important;
+}
+
+.bemvindo div.content {
+	margin-top: -40px;
+	padding: 5px 10px !important;
+}
+
+#bemvindo #texto {
+	width: 250px;
+	float: left;
+}
+
+/* Primary Menu
+/-------------------------------------------------------------- */
+
+/* Add general styles for primary menu here, such as typography, borders, floats,
+  or spacing above/below */
+
+.primary-menu {
+	float: right;
+	width: 660px;
+	margin-top: 33px;
+	margin-bottom: 0;
+}
+
+/* My Comment */
+
+/* styles for Superfish primary menu */
+
+.primary-menu-inner ul.sf-menu {
+	float: right;
+}
+
+/* Link style for top level menu items, add padding here */
+
+.primary-menu-inner ul.sf-menu a ,
+.primary-menu-inner ul.sf-menu a:link ,
+.primary-menu-inner ul.sf-menu a:visited {
+	font: 1.8em 'DaysRegular';
+	color: #fff;
+	padding: 0;
+	margin: 0 auto;
+	text-align: center;
+	line-height: 40px;
+	text-transform: uppercase;
+	width: 154px;
+	width: 154px;
+	height: 40px;
+	background-color: #1784BF;
+	border-bottom: solid 1px #136A97;
+	border-top: solid 1px #C5DCE5;
+	margin-left: 3px;
+	xline-height: 40px;
+	text-decoration: none;
+}
+
+.primary-menu-inner ul.sf-menu a:hover ,
+.primary-menu-inner ul.sf-menu a:active ,
+.primary-menu-inner ul.sf-menu .active-trail a {
+	height: 50px !important;
+	background-color: #93BDD3 !important;
+	border-bottom: solid 1px #7094A4 !important;
+	margin-top: -10px !important;
+	line-height: 50px !important;
+}
+
+/* These are the top level menu items, add border-right here for separators */
+
+.primary-menu-inner ul.sf-menu li {
+	
+}
+
+/* Add border-right: 0; here to remove separator on last menu item */
+
+.primary-menu-inner ul.sf-menu li.last {
+	
+}
+
+/* Style for container of dropdown, add background or border */
+
+.primary-menu-inner ul.sf-menu ul {
+	
+}
+
+/* Style for individual dropdown menu items, add border-bottom for separators */
+
+.primary-menu-inner ul.sf-menu li li {
+	background-color: #fff;
+}
+
+.primary-menu-inner ul.sf-menu li li.last {
+	
+}
+
+.primary-menu-inner ul.sf-menu li li li {
+	
+}
+
+/* Style for hover of dropdown menu items (add background-color here) */
+
+.primary-menu-inner ul.sf-menu li ul li:hover,
+.primary-menu-inner ul.sf-menu li ul li.sfHover {
+	
+}
+
+/* Secondary menu
+-------------------------------------------------------------- */
+
+/* This menu usually appears in the header as a set of simple text links */
+
+.secondary-menu {
+	
+}
+
+/* Set general style for menu here -- background, alignment, etc. */
+
+.secondary-menu-inner ul.links {
+	
+}
+
+/* Add a border-right here for a separator */
+
+.secondary-menu-inner ul.links li {
+	
+}
+
+/* Add border-right: 0; here to remove right separator on last menu item */
+
+.secondary-menu-inner ul.links li.last {
+	
+}
+
+/* Styles for links */
+
+.secondary-menu-inner ul.links li a:link,
+.secondary-menu-inner ul.links li a:visited {
+	padding: 3px;
+}
+
+.secondary-menu-inner ul.links li a:hover,
+.secondary-menu-inner ul.links li a:focus,
+.secondary-menu-inner ul.links li a.active {
+	
+}
+
+/* Header - Search
+-------------------------------------------------------------- */
+
+.search-box {
+	
+}
+
+.search-box-inner {
+	
+}
+
+.search-box-inner form#search-theme-form {
+	
+}
+
+.search-box-inner input#edit-search-theme-form-header {
+	
+}
+
+/*  Preface Regions
+-------------------------------------------------------------- */
+
+/* The Preface Top region sits between the header and the Main Area
+ (columns, sidebars, and main content).  The Preface Bottom region
+ is inside the Main Area. */
+
+.preface-top-wrapper {
+	margin-top: 40px;
+	background-color: #94bdd4;
+	margin-bottom: 50px;
+}
+
+.preface-top {
+	overflow: visible;
+}
+
+.preface-top div.imagem {
+	float: left;
+	height: 270px;
+	margin: -35px 0 -22px 35px;
+	border: solid 1px;
+	border-right-color: #A2B3A0;
+	border-left-color: #D8EADE;
+	border-bottom-color: #A4BAAD;
+	border-top-color: #BCD1D4;
+	-moz-box-shadow: 0 0 5px #aaa;
+	-webkit-box-shadow: 0 0  5px #aaa;
+	box-shadow: 0 0  5px #aaa;
+}
+
+.preface-top div.imagem img {
+	border: solid 5px  #C6D9C7;
+}
+
+.preface-top #block-views-banner_projeto-block_1,  .preface-top #block-views-banner_evento-block_1, .preface-top #block-views-destaque_home-block_1 {
+	margin: 0;
+	overflow: visible;
+}
+
+.preface-top div.view.view-banner-projeto, .preface-top div.view.view-banner-evento, .preface-top div.view.view-destaque-home {
+	height: 140px;
+	margin-top: 15px;
+	z-index: 2;
+	background: #1786c1 url(../images/projeto.png) no-repeat 10px center;
+}
+
+.preface-top div.view.view-banner-evento {
+	background: #1786c1 url(../images/evento.png) no-repeat 10px center;
+}
+.preface-top div.view.view-destaque-home {
+	height:150px;
+	background: #1786c1 url(../images/destaques.png) no-repeat 10px center;
+}
+
+.preface-top #botao-status, #logout a, #block-user-0 input#edit-submit.form-submit {
+	width: 84px;
+	height: 20px;
+	background-color: #84a884;
+	border: solid 1px #157615;
+	color: #fff;
+	float: right;
+	text-align: center;
+	text-transform: uppercase;
+	font: normal 1.25em DaysRegular;
+	text-decoration: none;
+}
+
+.preface-top div.participar {
+	width: 245px;
+	height: 65px;
+	float: right;
+	margin-right: 30px;
+	margin-top: 20px;
+	background-color: #dce6dc;
+	border: solid 1px;
+	border-bottom-color: #b9c2b9;
+	border-right-color: #abb8b3;
+	border-left-color: #eaf0ea;
+	border-top-color: #dce6dc;
+	-moz-box-shadow: 0 0 5px #aaa;
+	-webkit-box-shadow: 0 0  5px #aaa;
+	box-shadow: 0 0  5px #aaa;
+	font-family: DaysRegular;
+	text-align: center;
+	line-height: 60px;
+}
+
+.preface-top div.participar a {
+	font-size: 2.5em;
+	font-style: normal;
+	text-decoration: none;
+	color: #1786c1;
+	line-height: 60px;
+	width: 100%;
+	display: block;
+	text-transform: uppercase;
+}
+
+.preface-top div.status, #block-views-banner_evento-block_1  div.data {
+	width: 265px;
+	height: 25px;
+	float: right;
+	margin-right: 20px;
+	margin-top: 15px;
+}
+
+.preface-top div.status label {
+	float: left;
+	display: block;
+	width: 160px;
+	color: #fff;
+	font-size: 1.4em;
+	font-weight: bold;
+}
+
+.preface-top-inner {
+	
+}
+
+.preface-bottom {
+	
+}
+
+.preface-bottom-inner {
+	
+}
+
+#block-views-banner_evento-block_1  div.data {
+	color: #fff;
+	font-family: DaysRegular;
+	text-align: center;
+}
+
+/* -------- DESTAQUE DA HOME ---------- */
+
+#block-views-destaque_home-block_1  div.destaque {
+	float: left;
+	width: 284px;
+	padding: 5px;
+	margin: -35px 0 -22px 8px;
+	border: solid 1px;
+	border-right-color: #A2B3A0;
+	border-left-color: #D8EADE;
+	border-bottom-color: #A4BAAD;
+	border-top-color: #BCD1D4;
+	-moz-box-shadow: 0 0 5px #aaa;
+	-webkit-box-shadow: 0 0  5px #aaa;
+	box-shadow: 0 0  5px #aaa;
+	background-color: #C6D9C7;
+}
+
+#block-views-destaque_home-block_1  div.destaque.first {
+	margin-left: 35px;
+}
+
+#block-views-destaque_home-block_1  div.destaque.last {
+	margin-left: 9px;
+}
+
+#block-views-destaque_home-block_1  div.destaque div.titulo {
+	background-color: rgb(23,134,193);
+	background: rgba(23,134,193,0.9);
+	padding: 6px;
+	width: 272px;
+	height: 36px;
+	margin-top: -115px;
+	z-index: 100px;
+	position: relative;
+	line-height: 1.3em;
+	text-decoration: none;
+}
+
+#block-views-destaque_home-block_1  div.destaque div.titulo a {
+	color: #000;
+	font-weight: bold;
+	font-size: 1.6em;
+	font-variant: normal;
+	font-style: normal;
+	text-decoration: none;
+}
+
+#block-views-destaque_home-block_1  div.destaque div.resumo {
+	background-color: rgb(23,134,193);
+	background: rgba(23,134,193,0.9);
+	padding: 6px;
+	width: 272px;
+	height: 50px;
+	overflow: hidden;
+	position: relative;
+	color: #fff;
+}
+
+#block-views-destaque_home-block_1  div.destaque div.resumo p {
+	padding: 0;
+	margin: 0;
+	line-height: 1.13em;
+	color: #fff;
+	font-weight: normal;
+	font-style: normal;
+	font-size: 1.4em;
+}
+
+/*  Main Area (content + sidebars + preface bottom + postscript top)
+-------------------------------------------------------------- */
+
+.main-wrapper {
+	margin-top: 18px;
+}
+
+/* Sidebar Regions
+-------------------------------------------------------------- */
+
+/* Sidebar widths can be controlled through theme settings */
+
+.sidebar-first {
+	
+}
+
+.sidebar-last {
+	
+}
+
+.sidebar-last h2.title {
+	color: #1786c1;
+}
+
+.sidebar-last div.content.clearfix {
+	padding: 8px;
+	background-color: #F1F1F1;
+	border: solid 1px;
+	border-top-color: #F0F8FB;
+	border-bottom-color: #C9CDCE;
+	border-left-color: #F0F8FB;
+	border-right-color: #C9CDCE;
+}
+
+.sidebar-last ul {
+	color: #00376f;
+	margin-left: 1.2em;
+}
+
+.sidebar-last li {
+	
+}
+
+.sidebar-last a {
+	font-size: 1.1em;
+	text-decoration: none;
+	color: #00376f;
+	font-weight: bold;
+	font-style: normal;
+}
+
+#block-block-7 div.inner.clearfix div.content.clearfix, #block-block-8 div.inner.clearfix div.content.clearfix {
+	background-color: #1786c1;
+	border: none;
+	color: #fff;
+	text-transform: uppercase;
+	font: normal 1.32em/26px Days;
+	letter-spacing: 1px;
+	text-align: center;
+}
+
+#block-block-7 div.inner.clearfix div.content.clearfix a, #block-block-8 div.inner.clearfix div.content.clearfix a {
+	color: #fff;
+	font-weight: normal;
+	font-style: normal;
+	font-variant: normal;
+}
+
+/* --- views no sidebar --- */
+
+div.nome {
+	
+}
+
+#block-views-og_members_block-block div.nome {
+	margin: 12px 0;
+	font-size: 1.16em;
+	color: #00376f;
+	text-transform: capitalize;
+}
+
+#block-views-og_members_block-block  div.bio p {
+	color: #000;
+	line-height: 1.3em;
+}
+
+#block-views-og_members_block-block div.nome a {
+	color: #00376f;
+}
+
+#block-views-og_members_block-block  div.leiamais {
+	text-align: right;
+}
+
+#block-views-og_members_block-block_1  div.picture {
+	float: left;
+	margin-right: 8px;
+}
+
+#block-views-og_members_block-block_1  div.view-content div.membros-projeto {
+	clear: both;
+	margin-bottom: 8px;
+}
+
+#block-views-og_members_block-block_1  div.data {
+	color: #005988;
+	line-height: 1.2em;
+}
+
+#block-views-og_members_block-block_1  div.nome {
+	line-height: 1.3em;
+}
+
+/* ---- BLOCO DE IDEIAS ---- */
+
+#block-views-projetos-block_1  div.imagem {
+	float: left;
+	background-color: #C2DBC6;
+	padding: 5px;
+	xmargin: 0 10px 10px 0;
+	width: 83px;
+	height: 73px;
+	border-top: solid 1px #C0D9C4;
+	border-right: solid 1px #A3B6A7;
+	border-bottom: solid 1px #A3B9A7;
+	border-left: solid 1px #DAE9DC;
+	margin-bottom: 6px;
+}
+
+#block-views-projetos-block_1  div.titulo {
+	float: right;
+	width: 115px;
+	line-height: 1.2em;
+}
+
+#block-views-projetos-block_1  div.resumo {
+	float: right;
+	width: 115px;
+}
+
+#block-views-projetos-block_1  div.resumo p {
+	margin: 0;
+	line-height: 1.3em;
+	color: #000;
+}
+
+#block-views-projetos-block_1  div.projeto.first.odd {
+	margin-bottom: 10px;
+	padding-bottom: 10px;
+	border-bottom: solid 1px #85C0DC;
+}
+
+#block-views-projetos-block_1 div.participar {
+	clear: left;
+}
+
+#block-views-projetos-block_1  div.projeto {
+	clear: both;
+	overflow: hidden;
+}
+
+#block-views-projetos-block_1  div.participar a {
+	background-color: #1786c1;
+	border: none;
+	color: #fff;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	text-align: center;
+	font: normal 0.9em Days;
+	padding: 4px 2px;
+	border: solid 1px #1861A2;
+}
+
+#block-views-projetos-block_1 div.inner.clearfix div.content.clearfix {
+	background: none;
+	border: none;
+	padding: 0;
+	margin: 0;
+}
+
+/* ------------- EVENTOS -------------- */
+
+#block-views-lista_eventos-block_1 div.inner.clearfix div.content.clearfix {
+	padding: 0;
+	background-color: #ECF1EC;
+	border: solid 1px;
+	border-top-color: #E5E9E5;
+	border-bottom-color: #CFD4CF;
+	border-left-color: #D1D6D1;
+	border-right-color: #E4E9E6;
+}
+
+#block-views-lista_eventos-block_1  div.evento.odd {
+	padding: 8px;
+	background-color: #dce6dc;
+	line-height: 1.2em;
+}
+
+#block-views-lista_eventos-block_1  div.evento.even {
+	padding: 8px;
+}
+
+#block-views-lista_eventos-block_1  div.nome_evento a {
+	color: #00376f;
+	font-size: 13px;
+	line-height: 1.0em;
+	font-weight: bold;
+	text-transform: capitalize;
+}
+
+#block-views-lista_eventos-block_1  div.local a {
+	color: #4e4e4e;
+	font-style: normal;
+	font-weight: normal;
+}
+
+#block-views-lista_eventos-block_1 div.cidade {
+	float: left;
+	color: #005988;
+	margin-right: 4px;
+	font-style: italic;
+}
+
+#block-views-lista_eventos-block_1 div.estado {
+	color: #005988;
+	font-style: italic;
+}
+
+#block-views-lista_eventos-block_1  div.veja_mais {
+	text-align: right;
+	margin-top: 8px;
+}
+
+#block-views-lista_eventos-block_1  div.veja_mais a {
+	color: #003c5c;
+	font-size: 0.8em;
+	
+}
+
+/* Content Regions
+-------------------------------------------------------------- */
+
+.content-top {
+	
+}
+
+.content {
+	
+}
+
+.content div.field-label {
+	font: normal 1.58em DaysRegular;
+	color: #1786C1;
+	text-transform: uppercase;
+	margin-bottom: 10px;
+}
+
+.content div.field {
+	margin: 30px 0;
+}
+
+.content-inner {
+	
+}
+
+.content-bottom {
+	
+}
+
+/* This region only appears on full node pages. It's useful for ads or other
+  content between the body of the node and its comments */
+
+.node-bottom {
+	
+}
+
+/*  Postscript & Footer Regions
+-------------------------------------------------------------- */
+
+.postscript-top {
+	
+}
+
+.postscript-top-inner {
+	
+}
+
+.postscript-bottom-wrapper {
+	background-color: #94bdd4;
+}
+
+.postscript-bottom {
+	font-size: 0.9em;
+	color: black;
+	line-height: 1.2em;
+}
+
+.postscript-bottom h2 {
+	color: #323232;
+}
+
+.postscript-bottom li {
+	font-weight: bold;
+}
+
+.postscript-bottom a {
+	text-decoration: none;
+	color: black;
+	font-weight: normal;
+	font-style: normal;
+}
+
+.postscript-bottom-inner {
+	margin-top: 16px;
+}
+
+.postscript-bottom .block-block.odd.first {
+	border-right: solid 1px #6896AE;
+	padding-right: 10px;
+	margin-right: 30px;
+}
+
+.postscript-bottom .block-block.last ul {
+	list-style: none;
+	margin: 0;
+}
+
+.postscript-bottom .block-block.last li {
+	margin-bottom: 8px;
+	line-height: 1.1em;
+}
+
+.footer-wrapper {
+	
+}
+
+.footer {
+	margin-top: 10px;
+	font-size: 0.9em;
+	color: black;
+}
+
+.footer p {
+	margin: 0;
+}
+
+.footer a {
+	text-decoration: none;
+	font-weight: bold;
+	color: black;
+	font-style: normal;
+}
+
+.footer-inner {
+	
+}
+
+.footer-message-wrapper {
+	
+}
+
+.footer-message {
+	
+}
+
+.footer-message-inner {
+	
+}
+
+.footer-message-text {
+	
+}
+
+/* Page titles
+/-------------------------------------------------------------- */
+
+/* Page and full node titles */
+
+h1.title {
+	font-size: 2.0em;
+}
+
+/* Default node styles
+/-------------------------------------------------------------- */
+
+/* Change unpublished and preview colors for dark background themes */
+
+.node-unpublished {
+	background-color: #fff4f4;
+}
+
+.preview .node {
+	background-color: #ffffea;
+}
+
+/* Typography for node titles */
+
+h2.title {
+	
+}
+
+/* Colors and styles for linked node titles, ie. teaser listing at /node */
+
+h2.title a:link,
+h2.title a:visited {
+	
+}
+
+h2.title a:hover,
+h2.title a:focus,
+h2.title a:active {
+	
+}
+
+/* Separators and padding for node teasers */
+
+.teaser {
+	
+}
+
+/* Author/date info */
+
+.meta {
+	
+}
+
+.submitted {
+	
+}
+
+/* Links for nodes (taxonomy, commenting, read more, etc) */
+
+.node ul.links li {
+	
+}
+
+.node ul.links a {
+	
+}
+
+/* Only more/read more links */
+
+div.node .read-more a,
+div.node .more-link a {
+	
+}
+
+/* Drupal Messages
+/-------------------------------------------------------------- */
+
+/* General style for all errors/messages (border, padding, etc.) */
+
+div.content-messages div.messages,
+div.content-help div.help {
+	
+}
+
+/* Status messages: green */
+
+div.content-messages-inner div.status {
+	
+}
+
+/* Warning messages: yellow */
+
+div.content-messages-inner div.warning {
+	
+}
+
+/* Error messages: red */
+
+div.content-messages-inner div.error {
+	
+}
+
+/* Help messages: blue */
+
+div.content-help-inner div.help {
+	
+}
+
+/* Error that appears when a required form field is not filled out */
+
+.form-item input.error,
+.form-item textarea.error,
+.form-item select.error {
+	border: 1px solid #aa1144;
+}
+
+/* "New" text and required form field asterisk (default = red) */
+
+.marker,
+.form-required {
+	color: #aa1144;
+}
+
+/* Default block title styles
+/-------------------------------------------------------------- */
+
+h2.block-title {
+	font-size: 1.9em;
+}
+
+/* Breadcrumbs
+-------------------------------------------------------------- */
+
+.breadcrumbs {
+	
+}
+
+.breadcrumbs a:link,
+.breadcrumbs a:visited {
+	
+}
+
+/* Tab Menus
+/-------------------------------------------------------------- */
+
+#content-tabs {
+	background-color: transparent;
+	float: left;
+	/
+
+* LTR */
+  margin: 20px 0;
+	padding: 0;
+}
+
+#content-tabs ul.primary,
+#content-tabs ul.secondary {
+	border-bottom: 1px solid #000;
+	clear: both;
+	float: left;
+	/*
+
+LTR */
+  margin: 0;
+	padding: 0 10px;
+}
+
+#content-tabs ul.secondary {
+	border-bottom: 1px solid #555;
+	margin-top: 10px;
+	text-transform: lowercase;
+}
+
+#content-tabs ul.primary li,
+#content-tabs ul.secondary li {
+	border-style: none;
+	display: inline;
+	float: left;
+	/*
+
+LTR */
+  list-style: none;
+	margin: 0 10px;
+	padding: 0;
+}
+
+#content-tabs ul.primary li a:link,
+#content-tabs ul.primary li a:visited,
+#content-tabs ul.secondary li a:link,
+#content-tabs ul.secondary li a:visited {
+	background-color: transparent;
+	border: none;
+	color: #000;
+	float: left;
+	/*
+
+LTR */
+  font-weight: bold;
+	margin: 0;
+	padding: 0 0 6px 0;
+	text-decoration: none;
+	white-space: nowrap;
+}
+
+#content-tabs ul.secondary li a:link,
+#content-tabs ul.secondary li a:visited {
+	color: #555;
+}
+
+#content-tabs ul.primary li a.active:link,
+#content-tabs ul.primary li a.active:visited {
+	border-bottom: 4px solid #000;
+	color: #555;
+	padding-bottom: 2px;
+}
+
+#content-tabs ul.secondary li a.active:link,
+#content-tabs ul.secondary li a.active:visited {
+	border-bottom: 4px solid #555;
+	color: #777;
+	padding-bottom: 2px;
+}
+
+#content-tabs ul.primary li a:hover,
+#content-tabs ul.primary li a:focus,
+#content-tabs ul.secondary li a:hover,
+#content-tabs ul.secondary li a:focus {
+	border-bottom: 4px solid #777;
+	color: #777;
+	padding-bottom: 2px;
+}
+
+.view {
+	text-align: left;
+}
+
+/* ------ PAGINA DOS USUARIOS ---------- */
+
+div.usuario {
+	width: 142px;
+	float: left;
+	margin: 0 30px 15px 0;
+	padding: 0;
+	background: #C0D9E8 url(../images/balao.png) no-repeat 5px 95%;
+}
+
+.usuario div.picture {
+	background-color: #C2DBC6;
+	padding: 5px;
+	border-top: solid 1px #CDE1D6;
+	border-right: solid 1px #ABBFB1;
+	border-bottom: solid 1px #B2C9BF;
+	border-left: solid 1px #CCDECF;
+	height: 130px;
+	width: 130px;
+}
+
+.usuario div.nome {
+	font-weight: bold;
+	font-size: 1.16em;
+	color: #00376f;
+	text-transform: capitalize;
+	padding: 5px 5px 0 5px;
+}
+
+.usuario div.habilidade {
+	font-size: 1.16em;
+	text-transform: capitalize;
+	color: #005988;
+	text-decoration: none;
+	padding: 5px 5px 0 5px;
+}
+
+.usuario div.habilidade a {
+	color: #005988;
+	text-decoration: none;
+}
+
+.usuario div.cidade {
+	font-size: 0.9em;
+	font-weight: bold;
+	font-style: italic;
+	color: #3c3c3a;
+	text-transform: capitalize;
+	padding: 5px 5px 0 25px;
+	line-height: 14px;
+}
+
+.usuario div.estado {
+	font-size: 0.9em;
+	font-weight: bold;
+	font-style: italic;
+	color: #3c3c3a;
+	padding: 0 5px 12px 25px;
+	line-height: 12px;
+	text-transform: capitalize;
+}
+
+/* ------- 	PAGINA PROJETOS ------------ */
+
+#view-id-projetos-page_1 div.projeto {
+	float: left;
+	width: 210px;
+	background-color: #C2DBC6;
+	padding: 5px;
+	margin: 0 10px 10px 0;
+	border-top: solid 1px #C0D9C4;
+	border-right: solid 1px #A3B6A7;
+	border-bottom: solid 1px #A3B9A7;
+	border-left: solid 1px #DAE9DC;
+}
+
+#view-id-projetos-page_1 div.projeto div.titulo {
+	background-color: #1786c1;
+	padding: 6px;
+	width: 198px;
+	height: 36px;
+	margin-top: -95px;
+	z-index: 100px;
+	position: relative;
+	line-height: 1.3em;
+}
+
+#view-id-projetos-page_1 img.imagecache.imagecache-lista_projeto {
+	z-index: -100px;
+}
+
+#view-id-projetos-page_1 div.projeto div.titulo a {
+	color: #fff;
+	font-weight: bold;
+	font-size: 1.1em;
+	font-variant: normal;
+	font-style: normal;
+	text-decoration: none;
+}
+
+#view-id-projetos-page_1 div.projeto div.resumo {
+	background-color: #1786c1;
+	padding: 6px;
+	width: 198px;
+	height: 30px;
+	overflow: hidden;
+	position: relative;
+}
+
+#view-id-projetos-page_1 div.projeto div.resumo p {
+	padding: 0;
+	margin: 0;
+	line-height: 1.43em;
+	color: #000;
+	font-weight: normal;
+	font-style: normal;
+}
+
+/* -------- PAGINA DO EVENTO --------- */
+
+div.content  fieldset.fieldgroup.group-local {
+	border: none;
+	padding: 0;
+	text-transform: capitalize;
+}
+
+div.content fieldset.fieldgroup.group-local div.field.field-type-text.field-field-endereco-cidade {
+	float: left;
+	margin-right: 10px;
+}
+
+div.content fieldset.fieldgroup.group-local legend {
+	font: normal 1.58em DaysRegular;
+	color: #1786C1;
+	text-transform: uppercase;
+	margin-bottom: 10px;
+}
+
+div.content fieldset.fieldgroup.group-local .field-field-nome-local {
+	font-weight: bold;
+}
+
+div.content fieldset.fieldgroup.group-local div.field {
+	margin: 0;
+}
+
+/* --------- FEEDS -------------------- */
+
+div.content div.field.field-type-feed-field div.feed-wrapper {
+	background-color: #E8F3F9;
+	margin-bottom: 5px;
+	padding: 8px;
+	border: solid 1px;
+	border-top-color: #D4E6F0;
+	border-bottom-color: #D1DFE8;
+	border-left-color: #D5E7F1;
+	border-right-color: #CFDDE6;
+}
+
+div.content div.field.field-type-feed-field div.feed-wrapper  div.feed-title a {
+	color: #4c7e4c;
+	text-decoration: none;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 1.2em;
+}
+
+/* ----------- HOME ----------------- */
+
+#view-id-Home_hearbeat-page_1  div.beat {
+	background-color: #fff;
+	margin-bottom: 5px;
+	border: solid 1px;
+	border-top-color: #F7F7F7;
+	border-bottom-color: #E0E0E0;
+	border-left-color: #F0F8FB;
+	border-right-color: #F5F6F7;
+}
+
+#view-id-Home_hearbeat-page_1  a {
+	color: #4c7e4c;
+	text-decoration: none;
+	font-weight: bold;
+	font-style: normal;
+}
+
+#view-id-Home_hearbeat-page_1 div.timestamp {
+	color: #005988;
+}
+
+.front h1.title {
+	color: #1786C1;
+}
+
+#view-id-Home_hearbeat-page_1  a.user {
+	color: #00376f;
+	text-decoration: none;
+	font-weight: bold;
+	font-style: normal;
+}
+
+#view-id-Home_hearbeat-page_1 div.atividade {
+	padding: 8px;
+}
+
+#view-id-Home_hearbeat-page_1 div.atividade p {
+	margin: 0;
+	padding: 0;
+}
+
+#view-id-Home_hearbeat-page_1 div.timestamp {
+	padding: 8px;
+}
+
+/* ---------- BUSCA ----------------- */
+
+#block-search-0 div.inner.clearfix {
+	background-color: #ECF1EC;
+	padding: 7px;
+}
+
+#block-search-0 div.inner.clearfix h2.title.block-title {
+	float: left;
+	margin: 0 7px 0 0;
+}
+
+#block-search-0 .form-submit {
+	border: none;
+	text-indent: -9999px;
+	background: no-repeat url(../images/buscar.png);
+	content: ">";
+	width: 13px;
+	height: 19px;
+}
+
+#edit-search-block-form-1 {
+	height: 17px;
+	width: 175px;
+	border: solid 1px;
+	border-top-color: #C2C2C2;
+	border-bottom-color: #fff;
+	border-left-color: #DBDBDB;
+	border-right-color: #F6F8F6;
+}
+
+#edit-search-block-form-1-wrapper label {
+	display: none;
+}
+
+/* Pagers
+-------------------------------------------------------------- */
+
+ul.pager {
+	
+}
+
+ul.pager li {
+	
+}
+
+ul.pager a,
+ul.pager li.pager-current {
+	border-color: #333;
+}
+
+ul.pager li.pager-current {
+	background-color: #777;
+	color: #fff;
+}
+
+ul.pager a:hover,
+ul.pager a:active,
+ul.pager a:focus {
+	background-color: #777;
+	border-color: #333;
+	color: #fff;
+}
+
+/* Forms
+/-------------------------------------------------------------- */
+
+/* Typography and backgrounds for all form buttons */
+
+form input.form-submit {
+	margin: 2px;
+	padding: 3px 5px;
+}
+
+.form-text {
+	border: solid 1px #1286BC;
+}
+
+/* Hover style for form buttons */
+
+form input.form-submit:hover,
+form input.form-submit.hover,
+form input.form-submit:focus {
+	
+}
+
+/* Typography, background, borders, padding for form fields */
+
+.form-item input,
+.form-item select,
+.form-item textarea {
+	
+}
+
+/* Remove backgrounds and border on radios and checkboxes */
+
+.form-item .form-radio,
+.form-item .form-checkbox {
+	background: none;
+	border: none !important;
+}
+
+/* Fieldset wrapper around groups of form elements -- add border here */
+
+fieldset {
+	
+}
+
+/* Typography and spacing for legend of fieldsets */
+
+fieldset legend {
+	
+}
+
+/* Link style for legend of fieldsets */
+
+fieldset legend,
+legend.collapse-processed,
+legend.collapse-processed a:link,
+legend.collapse-processed a:visited {
+	
+}
+
+/* Custom icons on (open) collapsible fieldsets */
+
+html.js fieldset.collapsible legend a:link,
+html.js fieldset.collapsible legend a:visited {
+	
+}
+
+/* Custom icons on (closed) collapsible fieldsets */
+
+html.js fieldset.collapsed legend a:link,
+html.js fieldset.collapsed legend a:visited {
+	
+}
+
+/* --- Forms Preface-TOP ----------------- */
+
+.preface-top input {
+	width: 250px;
+	height: 20px;
+	border-top: solid 1px #fff;
+	border-left: solid 1px #fff;
+	border-bottom: solid 1px #D7D7D7;
+	border-right: solid 1px #CDD0D1;
+}
+
+.preface-top .block-views, .views-exposed-widgets, input#edit-submit-membros.form-submit {
+	margin: 0;
+}
+
+.preface-top input.form-submit {
+	width: 128px;
+	margin-right: -1px;
+	display: block;
+	background-color: #1786c1;
+	border: none;
+	height: 26px;
+	color: #fff;
+	text-transform: uppercase;
+	font: normal 1.32em/20px Days;
+	letter-spacing: 1px;
+}
+
+label.compact-form-label, .preface-top input {
+	color: #004f79;
+	line-height: 25px;
+	font-size: 1.8em;
+	font-weight: bold;
+}
+
+.preface-top .views-exposed-widget {
+	padding: 0;
+	margin: 25px 0;
+}
+
+.preface-top .compact-form-wrapper {
+	margin-right: 12px;
+}
+
+/* -------- 	fORM USER LOGIN ----------- */
+
+#block-user-0 label {
+	text-transform: uppercase;
+}
+
+#block-user-0 #user-login-form  a {
+	text-decoration: none;
+	color: #00476d;
+}
+
+#block-user-0 #edit-openid-identifier-wrapper {
+	float: left;
+	margin: 0;
+	padding: 0;
+}
+
+#block-user-0 #edit-name-wrapper, #edit-pass-wrapper {
+	float: left;
+	margin: 0 10px 0 0;
+}
+
+#block-user-0 .form-text {
+	width: 142px;
+	height: 20px;
+	border: solid 1px #1286BC;
+}
+
+#block-user-0 input#edit-submit.form-submit {
+	display: block;
+	margin: 17px 0 0 0;
+	height: 27px;
+	line-height: 26px;
+	padding: 0px;
+	text-align: center;
+	xfloat: left;
+}
+
+#block-user-0 #user-login-form div div.item-list {
+	float: left;
+	width: 151px;
+	margin: 2px 0 0 0;
+}
+
+#block-user-0 #user-login-form div div.item-list ul li.user-link.last.openid-processed {
+	margin: 14px 0 5px 0;
+}
+
+#block-user-0 #edit-openid-identifier-wrapper div.description {
+	text-align: right;
+}
+
+#block-user-0 #user-login-form div div.item-list ul li.openid-link.first.openid-processed {
+	margin-right: 7px;
+}
+
+#block-user-0 #user-login-form div div.item-list ul li {
+	float: right;
+	margin: 0;
+	padding: 0;
+	line-height: 12px;
+}
+
+#block-user-0 #block-user-0 li {
+	font-size: 0.9em;
+}
+
+/* Tables
+-------------------------------------------------------------- */
+
+table {
+	
+}
+
+/* Body of tables */
+
+tbody {
+	border-top: 1px solid #ccc;
+}
+
+/* Header of tables */
+
+thead th,
+th {
+	border-bottom: 3px solid #ccc;
+}
+
+tbody th {
+	border-bottom: 1px solid #ccc;
+}
+
+/* Alternating row background styles */
+
+tr.even,
+tr.even td {
+	background-color: #eee;
+	border-bottom: 1px solid #ccc;
+}
+
+tr.odd,
+tr.odd td {
+	background-color: #fff;
+	border-bottom: 1px solid #ccc;
+}
+
+td.active {
+	
+}
+
+tr.drag td,
+tr.drag-previous td {
+	color: #000;
+}
+
+/* Maintenance Page
+/-------------------------------------------------------------- */
+
+/* Maintenance page tpl file in Fusion Core has simplified layout, but you can
+  also add specific styles, such as a background, just for your offline page */
+
+.in-maintenance {
+	
+}
+
+/*--------------------------------------------------------------*/
+
+/* Module styles
+/-------------------------------------------------------------- */
+
+/* Book
+/-------------------------------------------------------------- */
+
+.book-navigation .menu {
+	border-top: 1px solid #ccc;
+}
+
+.book-navigation .page-links {
+	border-top: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+}
+
+/* Comments
+/-------------------------------------------------------------- */
+
+/* Style for each individual comment */
+
+div.comment {
+	
+}
+
+/* Subject (title) of each comment */
+
+div.comment h3.title {
+	
+}
+
+/* Links (edit, reply, delete) for each comment */
+
+div.comment div.links a,
+div.comment ul.links a {
+	
+}
+
+/* Alternating styles for even/odd comments */
+
+.comments div.odd {
+	background-color: #fff;
+}
+
+.comments div.even {
+	background-color: #eee;
+}
+
+/* A special highlight style for a comment by the author of the node */
+
+.comments div.comment-by-author {
+	background-color: #ddd;
+}
+
+/* Comment signatures */
+
+.signature {
+	border-top: 1px solid #d6ddb9;
+}
+
+/* User avatars in comments */
+
+.comment-wrapper .picture img {
+	
+}
+
+/* Forum
+/-------------------------------------------------------------- */
+
+#forum .description {
+	
+}
+
+.forum-topic-navigation {
+	border-top: 1px solid #888;
+	border-bottom: 1px solid #888;
+}
+
+/* Poll
+/-------------------------------------------------------------- */
+
+div.poll div.bar {
+	background-color: #ddd;
+}
+
+div.poll div.bar div.foreground {
+	background-color: #999;
+}
+
+/* Profiles
+/-------------------------------------------------------------- */
+
+.profile .picture {
+	float: none;
+}
+
+/* Styles for sub-headings on user profiles */
+
+.profile dt {
+	background-color: #ccc;
+}
