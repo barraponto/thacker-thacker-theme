@@ -162,7 +162,7 @@ body {
 	overflow: visible;
 }
 
-#block-block-5, #block-user-0 {
+#block-thacker_distro-4, #block-user-0 {
 	float: right;
 	overflow: visible;
 	margin-right: 26px;
@@ -400,12 +400,12 @@ body {
 	border: solid 5px  #C6D9C7;
 }
 
-.preface-top #block-views-banner_projeto-block_1,  .preface-top #block-views-banner_evento-block_1, .preface-top #block-views-destaque_home-block_1 {
+.preface-top #block-views-banner_projeto-block_1,  .preface-top #block-views-banner_evento-block_1, .preface-top #block-views-dt_project_home_promo-block_1 {
 	margin: 0;
 	overflow: visible;
 }
 
-.preface-top div.view.view-banner-projeto, .preface-top div.view.view-banner-evento, .preface-top div.view.view-destaque-home {
+.preface-top div.view.view-banner-projeto, .preface-top div.view.view-banner-evento, .preface-top div.view.view-dt-project-home-promo {
 	height: 140px;
 	margin-top: 15px;
 	z-index: 2;
@@ -415,7 +415,7 @@ body {
 .preface-top div.view.view-banner-evento {
 	background: #1786c1 url(../images/evento.png) no-repeat 10px center;
 }
-.preface-top div.view.view-destaque-home {
+.preface-top div.view.view-dt-project-home-promo {
 	height:150px;
 	background: #1786c1 url(../images/destaques.png) no-repeat 10px center;
 }
@@ -501,7 +501,7 @@ body {
 
 /* -------- DESTAQUE DA HOME ---------- */
 
-#block-views-destaque_home-block_1  div.destaque {
+#block-views-dt_project_home_promo-block_1  div.highlight {
 	float: left;
 	width: 284px;
 	padding: 5px;
@@ -517,15 +517,15 @@ body {
 	background-color: #C6D9C7;
 }
 
-#block-views-destaque_home-block_1  div.destaque.first {
+#block-views-dt_project_home_promo-block_1  div.highlight.first {
 	margin-left: 35px;
 }
 
-#block-views-destaque_home-block_1  div.destaque.last {
+#block-views-dt_project_home_promo-block_1  div.highlight.last {
 	margin-left: 9px;
 }
 
-#block-views-destaque_home-block_1  div.destaque div.titulo {
+#block-views-dt_project_home_promo-block_1  div.highlight div.title {
 	background-color: rgb(23,134,193);
 	background: rgba(23,134,193,0.9);
 	padding: 6px;
@@ -538,7 +538,7 @@ body {
 	text-decoration: none;
 }
 
-#block-views-destaque_home-block_1  div.destaque div.titulo a {
+#block-views-dt_project_home_promo-block_1  div.highlight div.title a {
 	color: #000;
 	font-weight: bold;
 	font-size: 1.6em;
@@ -547,7 +547,7 @@ body {
 	text-decoration: none;
 }
 
-#block-views-destaque_home-block_1  div.destaque div.resumo {
+#block-views-dt_project_home_promo-block_1  div.highlight div.teaser {
 	background-color: rgb(23,134,193);
 	background: rgba(23,134,193,0.9);
 	padding: 6px;
@@ -558,7 +558,7 @@ body {
 	color: #fff;
 }
 
-#block-views-destaque_home-block_1  div.destaque div.resumo p {
+#block-views-dt_project_home_promo-block_1  div.highlight div.teaser p {
 	padding: 0;
 	margin: 0;
 	line-height: 1.13em;
@@ -619,7 +619,7 @@ body {
 	font-style: normal;
 }
 
-#block-block-7 div.inner.clearfix div.content.clearfix, #block-block-8 div.inner.clearfix div.content.clearfix {
+#block-block-7 div.inner.clearfix div.content.clearfix, #block-thacker_project-0 div.inner.clearfix div.content.clearfix {
 	background-color: #1786c1;
 	border: none;
 	color: #fff;
@@ -629,7 +629,7 @@ body {
 	text-align: center;
 }
 
-#block-block-7 div.inner.clearfix div.content.clearfix a, #block-block-8 div.inner.clearfix div.content.clearfix a {
+#block-block-7 div.inner.clearfix div.content.clearfix a, #block-thacker_project-0 div.inner.clearfix div.content.clearfix a {
 	color: #fff;
 	font-weight: normal;
 	font-style: normal;
@@ -683,7 +683,7 @@ div.nome {
 
 /* ---- BLOCO DE IDEIAS ---- */
 
-#block-views-projetos-block_1  div.imagem {
+#block-views-dt_project_ideas-block_1  div.imagem {
 	float: left;
 	background-color: #C2DBC6;
 	padding: 5px;
@@ -697,39 +697,39 @@ div.nome {
 	margin-bottom: 6px;
 }
 
-#block-views-projetos-block_1  div.titulo {
+#block-views-dt_project_ideas-block_1  div.titulo {
 	float: right;
 	width: 115px;
 	line-height: 1.2em;
 }
 
-#block-views-projetos-block_1  div.resumo {
+#block-views-dt_project_ideas-block_1  div.resumo {
 	float: right;
 	width: 115px;
 }
 
-#block-views-projetos-block_1  div.resumo p {
+#block-views-dt_project_ideas-block_1  div.resumo p {
 	margin: 0;
 	line-height: 1.3em;
 	color: #000;
 }
 
-#block-views-projetos-block_1  div.projeto.first.odd {
+#block-views-dt_project_ideas-block_1  div.projeto.first.odd {
 	margin-bottom: 10px;
 	padding-bottom: 10px;
 	border-bottom: solid 1px #85C0DC;
 }
 
-#block-views-projetos-block_1 div.participar {
+#block-views-dt_project_ideas-block_1 div.participar {
 	clear: left;
 }
 
-#block-views-projetos-block_1  div.projeto {
+#block-views-dt_project_ideas-block_1  div.projeto {
 	clear: both;
 	overflow: hidden;
 }
 
-#block-views-projetos-block_1  div.participar a {
+#block-views-dt_project_ideas-block_1  div.participar a {
 	background-color: #1786c1;
 	border: none;
 	color: #fff;
@@ -741,7 +741,7 @@ div.nome {
 	border: solid 1px #1861A2;
 }
 
-#block-views-projetos-block_1 div.inner.clearfix div.content.clearfix {
+#block-views-dt_project_ideas-block_1 div.inner.clearfix div.content.clearfix {
 	background: none;
 	border: none;
 	padding: 0;
@@ -750,7 +750,7 @@ div.nome {
 
 /* ------------- EVENTOS -------------- */
 
-#block-views-lista_eventos-block_1 div.inner.clearfix div.content.clearfix {
+#block-views-dt_event_home-block_1 div.inner.clearfix div.content.clearfix {
 	padding: 0;
 	background-color: #ECF1EC;
 	border: solid 1px;
@@ -760,17 +760,17 @@ div.nome {
 	border-right-color: #E4E9E6;
 }
 
-#block-views-lista_eventos-block_1  div.evento.odd {
+#block-views-dt_event_home-block_1 div.event.odd {
 	padding: 8px;
 	background-color: #dce6dc;
 	line-height: 1.2em;
 }
 
-#block-views-lista_eventos-block_1  div.evento.even {
+#block-views-dt_event_home-block_1 div.event.even {
 	padding: 8px;
 }
 
-#block-views-lista_eventos-block_1  div.nome_evento a {
+#block-views-dt_event_home-block_1 div.title a {
 	color: #00376f;
 	font-size: 13px;
 	line-height: 1.0em;
@@ -778,30 +778,30 @@ div.nome {
 	text-transform: capitalize;
 }
 
-#block-views-lista_eventos-block_1  div.local a {
+#block-views-dt_event_home-block_1 div.venue a {
 	color: #4e4e4e;
 	font-style: normal;
 	font-weight: normal;
 }
 
-#block-views-lista_eventos-block_1 div.cidade {
+#block-views-dt_event_home-block_1 div.city {
 	float: left;
 	color: #005988;
 	margin-right: 4px;
 	font-style: italic;
 }
 
-#block-views-lista_eventos-block_1 div.estado {
+#block-views-dt_event_home-block_1 div.state {
 	color: #005988;
 	font-style: italic;
 }
 
-#block-views-lista_eventos-block_1  div.veja_mais {
+#block-views-dt_event_home-block_1  div.more {
 	text-align: right;
 	margin-top: 8px;
 }
 
-#block-views-lista_eventos-block_1  div.veja_mais a {
+#block-views-dt_event_home-block_1  div.more a {
 	color: #003c5c;
 	font-size: 0.8em;
 	
@@ -884,18 +884,18 @@ div.nome {
 	margin-top: 16px;
 }
 
-.postscript-bottom .block-block.odd.first {
+.postscript-bottom .block.odd.first {
 	border-right: solid 1px #6896AE;
 	padding-right: 10px;
 	margin-right: 30px;
 }
 
-.postscript-bottom .block-block.last ul {
+.postscript-bottom .block.last ul {
 	list-style: none;
 	margin: 0;
 }
 
-.postscript-bottom .block-block.last li {
+.postscript-bottom .block.last li {
 	margin-bottom: 8px;
 	line-height: 1.1em;
 }
@@ -1241,7 +1241,7 @@ div.usuario {
 
 /* ------- 	PAGINA PROJETOS ------------ */
 
-#view-id-projetos-page_1 div.projeto {
+#view-id-dt_project_page-page_1 div.project {
 	float: left;
 	width: 210px;
 	background-color: #C2DBC6;
@@ -1253,7 +1253,7 @@ div.usuario {
 	border-left: solid 1px #DAE9DC;
 }
 
-#view-id-projetos-page_1 div.projeto div.titulo {
+#view-id-dt_project_page-page_1 div.project div.title {
 	background-color: #1786c1;
 	padding: 6px;
 	width: 198px;
@@ -1264,11 +1264,11 @@ div.usuario {
 	line-height: 1.3em;
 }
 
-#view-id-projetos-page_1 img.imagecache.imagecache-lista_projeto {
+#view-id-dt_project_page-page_1 .promotional img {
 	z-index: -100px;
 }
 
-#view-id-projetos-page_1 div.projeto div.titulo a {
+#view-id-dt_project_page-page_1 div.project div.title a {
 	color: #fff;
 	font-weight: bold;
 	font-size: 1.1em;
@@ -1277,7 +1277,7 @@ div.usuario {
 	text-decoration: none;
 }
 
-#view-id-projetos-page_1 div.projeto div.resumo {
+#view-id-dt_project_page-page_1 div.project div.body {
 	background-color: #1786c1;
 	padding: 6px;
 	width: 198px;
@@ -1286,7 +1286,7 @@ div.usuario {
 	position: relative;
 }
 
-#view-id-projetos-page_1 div.projeto div.resumo p {
+#view-id-dt_project_page-page_1 div.project div.body p {
 	padding: 0;
 	margin: 0;
 	line-height: 1.43em;
@@ -1346,49 +1346,79 @@ div.content div.field.field-type-feed-field div.feed-wrapper  div.feed-title a {
 
 /* ----------- HOME ----------------- */
 
-#view-id-Home_hearbeat-page_1  div.beat {
-	background-color: #fff;
-	margin-bottom: 5px;
-	border: solid 1px;
-	border-top-color: #F7F7F7;
-	border-bottom-color: #E0E0E0;
-	border-left-color: #F0F8FB;
-	border-right-color: #F5F6F7;
+#view-id-heartbeat_pictures-page_1 .heartbeat {
+  background-color: #fff;
+  margin-bottom: 5px;
+  border: solid 1px;
+  border-top-color: #F7F7F7;
+  border-bottom-color: #E0E0E0;
+  border-left-color: #F0F8FB;
+  border-right-color: #F5F6F7;
+  position: relative;
+  margin-left: 120px;
+  height: 90px;
+  padding: 10px;
 }
 
-#view-id-Home_hearbeat-page_1  a {
-	color: #4c7e4c;
-	text-decoration: none;
-	font-weight: bold;
-	font-style: normal;
+#view-id-heartbeat_pictures-page_1 .avatar {
+  width: 100px; 
+  border: 5px solid #C4DCC2;
+  height: 100px;
+  position: absolute;
+  left: -120px;
+  top: 0;
 }
 
-#view-id-Home_hearbeat-page_1 div.timestamp {
-	color: #005988;
+
+#view-id-heartbeat_pictures-page_1 a {
+  color: #005988;
+  text-decoration: none;
+  font-weight: bold;
+  font-style: normal;
 }
+
+#view-id-heartbeat_pictures-page_1 .timestamp {
+  color: #005988;
+}
+
+#view-id-heartbeat_pictures-page_1 .type {
+  background-color: #1784BF;
+  padding: 0.25em 1em;
+  margin-bottom: 0.5em;
+  margin-right: 0.75em;
+  float: left;
+}
+
+#view-id-heartbeat_pictures-page_1 .type a {
+  color: white;
+}
+
+#view-id-heartbeat_pictures-page_1 .title {
+  margin-top: .25em;
+  margin-bottom: .75em; 
+}
+
+#view-id-heartbeat_pictures-page_1 .title a {
+  color: #4c7e4c;
+}
+
 
 .front h1.title {
-	color: #1786C1;
+  color: #1786C1;
 }
 
-#view-id-Home_hearbeat-page_1  a.user {
-	color: #00376f;
-	text-decoration: none;
-	font-weight: bold;
-	font-style: normal;
+#view-id-heartbeat_pictures-page_1  a.user {
+  color: #00376f;
+  text-decoration: none;
+  font-weight: bold;
+  font-style: normal;
 }
 
-#view-id-Home_hearbeat-page_1 div.atividade {
-	padding: 8px;
+#view-id-heartbeat_pictures-page_1 .message p {
+  margin: 0;
 }
 
-#view-id-Home_hearbeat-page_1 div.atividade p {
-	margin: 0;
-	padding: 0;
-}
-
-#view-id-Home_hearbeat-page_1 div.timestamp {
-	padding: 8px;
+#view-id-heartbeat_pictures-page_1 .timestamp {
 }
 
 /* ---------- BUSCA ----------------- */
@@ -1559,7 +1589,7 @@ html.js fieldset.collapsed legend a:visited {
 label.compact-form-label, .preface-top input {
 	color: #004f79;
 	line-height: 25px;
-	font-size: 1.8em;
+	font-size: 1.5em;
 	font-weight: bold;
 }
 
@@ -1570,6 +1600,10 @@ label.compact-form-label, .preface-top input {
 
 .preface-top .compact-form-wrapper {
 	margin-right: 12px;
+}
+
+#edit-submit-dt-project-page, #edit-submit-user-page {
+  margin-top: 1em;
 }
 
 /* -------- 	fORM USER LOGIN ----------- */
