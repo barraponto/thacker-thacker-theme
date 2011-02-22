@@ -504,6 +504,7 @@ body {
 #block-views-dt_project_home_promo-block_1  div.highlight {
 	float: left;
 	width: 284px;
+  height: 360px;
 	padding: 5px;
 	margin: -35px 0 -22px 8px;
 	border: solid 1px;
@@ -515,6 +516,7 @@ body {
 	-webkit-box-shadow: 0 0  5px #aaa;
 	box-shadow: 0 0  5px #aaa;
 	background-color: #C6D9C7;
+  position: relative;
 }
 
 #block-views-dt_project_home_promo-block_1  div.highlight.first {
@@ -525,17 +527,20 @@ body {
 	margin-left: 9px;
 }
 
+#block-views-dt_project_home_promo-block_1  div.highlight div.description {
+  padding: 5px;
+  position: absolute;
+  bottom: 5px;
+  left: 5px;
+  right: 5px;
+  background-color: rgb(23,134,193);
+  background: rgba(23,134,193,0.9);
+}
+
 #block-views-dt_project_home_promo-block_1  div.highlight div.title {
-	background-color: rgb(23,134,193);
-	background: rgba(23,134,193,0.9);
-	padding: 6px;
-	width: 272px;
-	height: 36px;
-	margin-top: -115px;
-	z-index: 100px;
-	position: relative;
 	line-height: 1.3em;
 	text-decoration: none;
+  margin: 0.5em 0;
 }
 
 #block-views-dt_project_home_promo-block_1  div.highlight div.title a {
@@ -548,13 +553,6 @@ body {
 }
 
 #block-views-dt_project_home_promo-block_1  div.highlight div.teaser {
-	background-color: rgb(23,134,193);
-	background: rgba(23,134,193,0.9);
-	padding: 6px;
-	width: 272px;
-	height: 50px;
-	overflow: hidden;
-	position: relative;
 	color: #fff;
 }
 
@@ -1375,6 +1373,11 @@ div.content div.field.field-type-feed-field div.feed-wrapper  div.feed-title a {
   text-decoration: none;
   font-weight: bold;
   font-style: normal;
+}
+
+#view-id-heartbeat_pictures-page_1 .more a {
+  font-weight: normal;
+  text-decoration: underline;
 }
 
 #view-id-heartbeat_pictures-page_1 .timestamp {
