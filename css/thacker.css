@@ -382,7 +382,7 @@ body {
 	overflow: visible;
 }
 
-.preface-top div.imagem {
+.preface-top div.promotional_banner {
 	float: left;
 	height: 270px;
 	margin: -35px 0 -22px 35px;
@@ -396,7 +396,7 @@ body {
 	box-shadow: 0 0  5px #aaa;
 }
 
-.preface-top div.imagem img {
+.preface-top div.promotional_banner img {
 	border: solid 5px  #C6D9C7;
 }
 
@@ -405,14 +405,14 @@ body {
 	overflow: visible;
 }
 
-.preface-top div.view.view-banner-projeto, .preface-top div.view.view-banner-evento, .preface-top div.view.view-dt-project-home-promo {
+.preface-top div.view.view-banner-projeto, .preface-top div.view.view-dt-event-promo, .preface-top div.view.view-dt-project-home-promo {
 	height: 140px;
 	margin-top: 15px;
 	z-index: 2;
 	background: #1786c1 url(../images/projeto.png) no-repeat 10px center;
 }
 
-.preface-top div.view.view-banner-evento {
+.preface-top div.view.view-dt-event-promo {
 	background: #1786c1 url(../images/evento.png) no-repeat 10px center;
 }
 .preface-top div.view.view-dt-project-home-promo {
@@ -433,7 +433,7 @@ body {
 	text-decoration: none;
 }
 
-.preface-top div.participar {
+.preface-top div.signup {
 	width: 245px;
 	height: 65px;
 	float: right;
@@ -453,7 +453,8 @@ body {
 	line-height: 60px;
 }
 
-.preface-top div.participar a {
+.preface-top div.signup a,
+.preface-top div.signup .closed {
 	font-size: 2.5em;
 	font-style: normal;
 	text-decoration: none;
@@ -462,6 +463,10 @@ body {
 	width: 100%;
 	display: block;
 	text-transform: uppercase;
+}
+
+.preface-top div.signup .closed {
+  font-size: 1em;
 }
 
 .preface-top div.status, #block-views-banner_evento-block_1  div.data {
@@ -493,7 +498,7 @@ body {
 	
 }
 
-#block-views-banner_evento-block_1  div.data {
+#block-views-dt_event_promo-block_1 div.date {
 	color: #fff;
 	font-family: DaysRegular;
 	text-align: center;
@@ -681,7 +686,7 @@ div.nome {
 
 /* ---- BLOCO DE IDEIAS ---- */
 
-#block-views-dt_project_ideas-block_1  div.imagem {
+#block-views-dt_project_ideas-block_1  div.promotional_banner {
 	float: left;
 	background-color: #C2DBC6;
 	padding: 5px;
@@ -718,7 +723,7 @@ div.nome {
 	border-bottom: solid 1px #85C0DC;
 }
 
-#block-views-dt_project_ideas-block_1 div.participar {
+#block-views-dt_project_ideas-block_1 div.signup {
 	clear: left;
 }
 
@@ -727,7 +732,7 @@ div.nome {
 	overflow: hidden;
 }
 
-#block-views-dt_project_ideas-block_1  div.participar a {
+#block-views-dt_project_ideas-block_1  div.signup a {
 	background-color: #1786c1;
 	border: none;
 	color: #fff;
