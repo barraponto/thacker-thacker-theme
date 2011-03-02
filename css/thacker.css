@@ -1,5 +1,8 @@
 /* Basic Typography & Colors
 -------------------------------------------------------------- */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'DaysRegular';
+}
 
 body {
 	font-size: 1em;
@@ -72,6 +75,10 @@ body {
 #header-site-info {
 	position: absolute;
 	top: 0;
+}
+
+body.toolbar #header-site-info {
+  top: 42px;
 }
 
 .header-site-info span {
@@ -686,11 +693,11 @@ div.nome {
 
 /* ---- BLOCO DE IDEIAS ---- */
 
-#block-views-dt_project_ideas-block_1  div.promotional_banner {
+#block-views-dt_project_ideas-block_1  div.promotional_page {
 	float: left;
 	background-color: #C2DBC6;
 	padding: 5px;
-	xmargin: 0 10px 10px 0;
+	margin: 0 10px 10px 0;
 	width: 83px;
 	height: 73px;
 	border-top: solid 1px #C0D9C4;
@@ -700,50 +707,59 @@ div.nome {
 	margin-bottom: 6px;
 }
 
-#block-views-dt_project_ideas-block_1  div.titulo {
-	float: right;
-	width: 115px;
+#block-views-dt_project_ideas-block_1  div.promotional_page img {
+	width: 83px !important;
+	height: 73px !important;
+}
+
+#block-views-dt_project_ideas-block_1  div.title {
 	line-height: 1.2em;
 }
 
-#block-views-dt_project_ideas-block_1  div.resumo {
-	float: right;
-	width: 115px;
+#block-views-dt_project_ideas-block_1  div.body {
 }
 
-#block-views-dt_project_ideas-block_1  div.resumo p {
+#block-views-dt_project_ideas-block_1  div.body p {
 	margin: 0;
 	line-height: 1.3em;
 	color: #000;
 }
 
-#block-views-dt_project_ideas-block_1  div.projeto.first.odd {
+#block-views-dt_project_ideas-block_1  div.project.first.odd {
 	margin-bottom: 10px;
 	padding-bottom: 10px;
 	border-bottom: solid 1px #85C0DC;
 }
 
-#block-views-dt_project_ideas-block_1 div.signup {
-	clear: left;
+#block-views-dt_project_ideas-block_1 div.join { 
+	float: left;
+  clear: left;
+  margin-right: 10px;
+  text-align: center;
+  width: 95px;
 }
 
-#block-views-dt_project_ideas-block_1  div.projeto {
+#block-views-dt_project_ideas-block_1  div.project {
 	clear: both;
 	overflow: hidden;
 }
 
-#block-views-dt_project_ideas-block_1  div.signup a {
+#block-views-dt_project_ideas-block_1  div.join a, 
+#block-views-dt_project_ideas-block_1  div.join .signedup {
 	background-color: #1786c1;
 	border: none;
 	color: #fff;
 	text-transform: uppercase;
 	letter-spacing: 1px;
-	text-align: center;
-	font: normal 0.9em Days;
+	font: normal 0.75em Days;
 	padding: 4px 2px;
 	border: solid 1px #1861A2;
 }
 
+#block-views-dt_project_ideas-block_1  div.join .signedup {
+  background-color: #999;
+  border-color: #777;
+}
 #block-views-dt_project_ideas-block_1 div.inner.clearfix div.content.clearfix {
 	background: none;
 	border: none;
@@ -1072,6 +1088,7 @@ div.content-help-inner div.help {
 
 h2.block-title {
 	font-size: 1.9em;
+  line-height: 1em;
 }
 
 /* Breadcrumbs
@@ -1247,6 +1264,7 @@ div.usuario {
 #view-id-dt_project_page-page_1 div.project {
 	float: left;
 	width: 210px;
+  height: 246px;
 	background-color: #C2DBC6;
 	padding: 5px;
 	margin: 0 10px 10px 0;
@@ -1254,6 +1272,10 @@ div.usuario {
 	border-right: solid 1px #A3B6A7;
 	border-bottom: solid 1px #A3B9A7;
 	border-left: solid 1px #DAE9DC;
+}
+#view-id-dt_project_page-page_1 div.project div.promotional {
+  height: 251px;
+  width: 210px;
 }
 
 #view-id-dt_project_page-page_1 div.project div.title {
