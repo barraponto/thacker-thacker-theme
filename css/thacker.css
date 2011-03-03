@@ -33,14 +33,17 @@ h2, h3 {
 
 h1 {
 	font-size: 2em;
+  line-height: 1em;
 }
 
 h2 {
 	font-size: 1.8em;
+  line-height: 1em;
 }
 
 h3 {
 	font-size: 1.6em;
+  line-height: 1em;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -505,10 +508,16 @@ body.toolbar #header-site-info {
 	
 }
 
+#block-views-dt_event_promo-block_1 {
+  overflow: visible;
+}
+
 #block-views-dt_event_promo-block_1 div.date {
+  clear: right;
 	color: #fff;
 	font-family: DaysRegular;
 	text-align: center;
+  clear; right;
 }
 
 /* -------- DESTAQUE DA HOME ---------- */
@@ -648,10 +657,6 @@ body.toolbar #header-site-info {
 
 /* --- views no sidebar --- */
 
-div.nome {
-	
-}
-
 #block-views-og_members_block-block div.nome {
 	margin: 12px 0;
 	font-size: 1.16em;
@@ -672,22 +677,30 @@ div.nome {
 	text-align: right;
 }
 
-#block-views-og_members_block-block_1  div.picture {
+#block-views-dt_event_signups_block-block_1  div.avatar {
 	float: left;
-	margin-right: 8px;
 }
 
-#block-views-og_members_block-block_1  div.view-content div.membros-projeto {
+#block-views-dt_event_signups_block-block_1  div.avatar ~ div {
+  margin-left: 50px;
+}
+
+#block-views-dt_event_signups_block-block_1  .goer {
 	clear: both;
-	margin-bottom: 8px;
+	margin-bottom: 1em;
+  min-height: 38px;
 }
 
-#block-views-og_members_block-block_1  div.data {
+#block-views-dt_event_signups_block-block_1  .goer.last {
+  margin-bottom: 0;
+}
+
+#block-views-dt_event_signups_block-block_1  div.signup-date {
 	color: #005988;
 	line-height: 1.2em;
 }
 
-#block-views-og_members_block-block_1  div.nome {
+#block-views-dt_event_signups_block-block_1  div.name {
 	line-height: 1.3em;
 }
 
@@ -967,6 +980,7 @@ div.nome {
 
 h1.title {
 	font-size: 2.0em;
+  line-height: 1em;
 }
 
 /* Default node styles
