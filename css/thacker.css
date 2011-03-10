@@ -588,9 +588,9 @@ body.toolbar #header-site-info {
 #block-views-dt_project_home_promo-block_1 .highlight .promotional_home {
   background-color: white;
   background-image: none;
-  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #808080), color-stop(30%, #ffffff), color-stop(70%, #ffffff), color-stop(100%, #808080));
-  background-image: -moz-linear-gradient(top, #808080, #ffffff 30%, #ffffff 70%, #808080);
-  background-image: linear-gradient(top, #808080, #ffffff 30%, #ffffff 70%, #808080);  
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #CCCCCC), color-stop(30%, #ffffff), color-stop(70%, #ffffff), color-stop(100%, #CCCCCC));
+  background-image: -moz-linear-gradient(top, #CCCCCC, #ffffff 30%, #ffffff 70%, #CCCCCC);
+  background-image: linear-gradient(top, #CCCCCC, #ffffff 30%, #ffffff 70%, #CCCCCC);  
 }
 
 #block-views-dt_project_home_promo-block_1 .highlight .promotional_home a.imagecache {
