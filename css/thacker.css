@@ -1873,6 +1873,53 @@ div.poll div.bar div.foreground {
 
 /* Styles for sub-headings on user profiles */
 
-.profile dt {
+.profile dt { 
 	background-color: #ccc;
 }
+
+/* pagina de usuarios */
+  
+#view-id-user_page-page_1 .user {
+  background-color: #c2d9eb;
+  display: inline-block;
+  margin-bottom: 2em;
+  vertical-align: top;
+  width: 140px;
+  margin-right: 43px;
+}
+#view-id-user_page-page_1 .user.last {
+  margin-right: 0;
+}
+
+#view-id-user_page-page_1 .user .name a {
+  color: #306694;
+  font-weight: bold;
+  font-style: normal;
+}
+#view-id-user_page-page_1 {}
+#view-id-user_page-page_1 a 
+{
+  text-decoration: none;
+  
+}
+#view-id-user_page-page_1 div.skills label
+{display:none;}
+
+#view-id-user_page-page_1 .avatar img {
+  border: 5px solid #c2dcc1;
+}
+
+#view-id-user_page-page_1 .user .avatar ~ div {
+  padding: 0 5px;
+}
+
+#view-id-user_page-page_1 .city
+{color:#3f4a50;
+  font-weight: bold;
+  font-style: italic;
+}
+#view-id-user_page-page_1 .country
+{font-style: italic;}
+
+#view-id-user_page-page_1 a
+{color:#306694}
