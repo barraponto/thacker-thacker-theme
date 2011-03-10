@@ -402,20 +402,26 @@ body.toolbar #header-site-info {
 	border-bottom-color: #A4BAAD;
 	border-top-color: #BCD1D4;
 	-moz-box-shadow: 0 0 5px #aaa;
-	-webkit-box-shadow: 0 0  5px #aaa;
-	box-shadow: 0 0  5px #aaa;
+	-webkit-box-shadow: 0 0 5px #aaa;
+	box-shadow: 0 0 5px #aaa;
 }
 
 .preface-top div.promotional_banner img {
-	border: solid 5px  #C6D9C7;
+	border: solid 5px #C6D9C7;
 }
 
-.preface-top #block-views-banner_projeto-block_1,  .preface-top #block-views-banner_evento-block_1, .preface-top #block-views-dt_project_home_promo-block_1 {
+.preface-top #block-views-banner_projeto-block_1,
+.preface-top #block-views-banner_evento-block_1,
+.preface-top #block-views-dt_project_promo-block_1,
+.preface-top #block-views-dt_project_home_promo-block_1 {
 	margin: 0;
 	overflow: visible;
 }
 
-.preface-top div.view.view-banner-projeto, .preface-top div.view.view-dt-event-promo, .preface-top div.view.view-dt-project-home-promo {
+.preface-top div.view.view-banner-projeto,
+.preface-top div.view.view-dt-event-promo,
+.preface-top div.view.view-dt-project-home-promo, 
+.preface-top div.view.view-dt-project-promo {
 	height: 140px;
 	margin-top: 15px;
 	z-index: 2;
@@ -443,7 +449,8 @@ body.toolbar #header-site-info {
 	text-decoration: none;
 }
 
-.preface-top div.signup {
+.preface-top div.signup,
+.preface-top div.join {
 	width: 245px;
 	height: 65px;
 	float: right;
@@ -464,7 +471,8 @@ body.toolbar #header-site-info {
 }
 
 .preface-top div.signup a,
-.preface-top div.signup .closed {
+.preface-top div.signup .closed, 
+.preface-top div.join a {
 	font-size: 2.5em;
 	font-style: normal;
 	text-decoration: none;
