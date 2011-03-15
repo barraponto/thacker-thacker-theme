@@ -1451,25 +1451,32 @@ div.content div.field.field-type-feed-field div.feed-wrapper  div.feed-title a {
 
 #view-id-heartbeat_pictures-page_1 .type {
   background-color: #1784BF;
+  color: white;
   padding: 0.25em 1em;
-  margin-bottom: 0.5em;
   margin-right: 0.75em;
   float: left;
+  text-transform: uppercase;
+  font-family: 'DaysRegular';
 }
 
 #view-id-heartbeat_pictures-page_1 .type a {
   color: white;
 }
 
+#view-id-heartbeat_pictures-page_1 .message {
+  margin-bottom: .25em;
+} 
+
 #view-id-heartbeat_pictures-page_1 .title {
-  margin-top: .25em;
-  margin-bottom: .75em; 
+  font-size: 1.2em;
+  line-height: 1em;
+  margin-bottom: 0.75em;
+  margin-top: 0.5em;
 }
 
 #view-id-heartbeat_pictures-page_1 .title a {
   color: #4c7e4c;
 }
-
 
 .front h1.title {
   color: #1786C1;
@@ -1920,14 +1927,14 @@ div.poll div.bar div.foreground {
   font-weight: bold;
   font-style: normal;
 }
-#view-id-user_page-page_1 {}
-#view-id-user_page-page_1 a 
-{
+
+#view-id-user_page-page_1 a {
   text-decoration: none;
-  
 }
-#view-id-user_page-page_1 div.skills label
-{display:none;}
+
+#view-id-user_page-page_1 div.skills label {
+  display:none;
+}
 
 #view-id-user_page-page_1 .avatar img {
   border: 5px solid #c2dcc1;
@@ -1937,13 +1944,33 @@ div.poll div.bar div.foreground {
   padding: 0 5px;
 }
 
-#view-id-user_page-page_1 .city
-{color:#3f4a50;
+#view-id-user_page-page_1 .city {
+  color:#3f4a50;
   font-weight: bold;
   font-style: italic;
 }
-#view-id-user_page-page_1 .country
-{font-style: italic;}
 
-#view-id-user_page-page_1 a
-{color:#306694}
+#view-id-user_page-page_1 .country{
+  font-style: italic;
+}
+
+#view-id-user_page-page_1 a {
+  color:#306694;
+}
+
+/* bugfixing the home search */
+.front #main-content {
+  margin-top: -4.2em;
+}
+.front h1.title {
+  margin-bottom: 1em;
+}
+
+/* workaround the new user message on heartbeat activity */
+#view-id-heartbeat_pictures-page_1 .more {
+  display: none;
+}
+
+#view-id-heartbeat_pictures-page_1 .teaser + .more {
+  display: inline;
+}  
