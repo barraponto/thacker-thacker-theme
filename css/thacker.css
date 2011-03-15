@@ -1960,10 +1960,20 @@ div.poll div.bar div.foreground {
 
 /* bugfixing the home search */
 .front #main-content {
-  margin-top: -4.2em;
 }
+
 .front h1.title {
-  margin-bottom: 1em;
+  margin-bottom: 0.75em;
+  margin-top: 0.25em;
+}
+
+.front #main-group-inner {
+  position: relative;
+}
+
+.front #preface-bottom {
+  position: absolute;
+  z-index: 1;
 }
 
 /* workaround the new user message on heartbeat activity */
