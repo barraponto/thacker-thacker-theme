@@ -875,7 +875,7 @@ body.toolbar #header-site-info {
 }
 
 .content div.field-label {
-	font: normal 1.58em DaysRegular;
+	font: bold 1.8em DaysRegular;
 	color: #1786C1;
 	text-transform: uppercase;
 	margin-bottom: 10px;
@@ -1984,3 +1984,25 @@ div.poll div.bar div.foreground {
 #view-id-heartbeat_pictures-page_1 .teaser + .more {
   display: inline;
 }  
+/* The Event goers list */
+#block-views-e8395831fe63b88e2403d2f899120ad0 .member {
+  overflow: hidden;
+}
+#block-views-e8395831fe63b88e2403d2f899120ad0 .avatar_small {
+  float: left;
+}
+#block-views-e8395831fe63b88e2403d2f899120ad0 .avatar_small ~ div {
+  margin-left: 50px;
+}
+
+/* PAGINA DO PROJETO */
+
+#block-views-dt_project_promo-block_1 .status a {
+  background-color: #84a884;
+  border: 2px solid #157615;
+  color: white;
+  font-family: 'DaysRegular';
+  padding: 0.5em;
+  text-decoration: none;
+  text-transform: uppercase;
+}
