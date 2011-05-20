@@ -7,6 +7,8 @@ core = 6.x
 engine = phptemplate
 
 stylesheets[all][] = css/thacker.css
+stylesheets[all][] = css/social.css
+scripts[] = js/thacker.js
 
 regions[sidebar_first] = sidebar first
 regions[sidebar_last] = sidebar last

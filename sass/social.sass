@@ -1,0 +1,14 @@
+@import compass
+
+$social-networks: aim google_voice qik apple google_wave readernaut bebo gowalla reddit blogger grooveshark roboto brightkite ilike rss cargo komodomedia_azure sharethis delicious komodomedia_wood skype designfloat lastfm stumbleupon designmoo linkedin technorati deviantart mixx tumblr digg mobileme twitter dopplr mynameise viddler dribbble myspace vimeo email netvibes virb ember newsvine windows evernote openid wordpress facebook orkut xing flickr pandora yahoo forrst paypal yahoobuzz friendfeed picasa yelp gamespot playstation youtube google plurk zootool googletalk posterous
+
+body.node-type-profile
+  .field-field-social-links
+    div
+      display: inline-block
+    .field-item > a
+      +replace-text-with-dimensions("social/rss_32.png")
+      display: block
+      @each $social-network in $social-networks
+        &[href*="#{$social-network}.com"]
+          +replace-text-with-dimensions("social/#{$social-network}_32.png")

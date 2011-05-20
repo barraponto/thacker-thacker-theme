@@ -12,7 +12,7 @@ function thacker_preprocess_page(&$vars) {
 }
 
 function thacker_preprocess_node(&$vars) {
-  if ($vars['node']->type == 'dt_project') {
+  if (in_array($vars['node']->type, array('dt_project','profile'))) {
     $vars['terms'] = FALSE;
   }
 }

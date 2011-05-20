@@ -788,7 +788,7 @@ body.toolbar #header-site-info {
 	color: #fff;
 	text-transform: uppercase;
 	letter-spacing: 1px;
-	font: normal 0.75em Days;
+	font: normal 0.75em 'DaysRegular';
 	padding: 4px 2px;
 	border: solid 1px #1861A2;
 }
@@ -1299,6 +1299,8 @@ div.usuario {
 
 /* ------- 	PAGINA PROJETOS ------------ */
 
+#view-id-dt_event_page-page_1 .event,
+#block-views-profile_projects-block_1 div.project, 
 #view-id-dt_project_page-page_1 div.project {
 	float: left;
 	width: 210px;
@@ -1311,11 +1313,13 @@ div.usuario {
 	border-bottom: solid 1px #A3B9A7;
 	border-left: solid 1px #DAE9DC;
 }
+#block-views-profile_projects-block_1 div.project div.promotional,
 #view-id-dt_project_page-page_1 div.project div.promotional {
   height: 251px;
   width: 210px;
 }
 
+#block-views-profile_projects-block_1 div.project div.title,
 #view-id-dt_project_page-page_1 div.project div.title {
 	background-color: #1786c1;
 	padding: 6px;
@@ -1327,10 +1331,12 @@ div.usuario {
 	line-height: 1.3em;
 }
 
+#block-views-profile_projects-block_1 .promotional img, 
 #view-id-dt_project_page-page_1 .promotional img {
 	z-index: -100px;
 }
 
+#block-views-profile_projects-block_1 div.project div.title a, 
 #view-id-dt_project_page-page_1 div.project div.title a {
 	color: #fff;
 	font-weight: bold;
@@ -1340,6 +1346,7 @@ div.usuario {
 	text-decoration: none;
 }
 
+#block-views-profile_projects-block_1 div.project div.body, 
 #view-id-dt_project_page-page_1 div.project div.body {
 	background-color: #1786c1;
 	padding: 6px;
@@ -1347,8 +1354,10 @@ div.usuario {
 	height: 30px;
 	overflow: hidden;
 	position: relative;
+  color: white;
 }
 
+#block-views-profile_projects-block_1 div.project div.body p, 
 #view-id-dt_project_page-page_1 div.project div.body p {
 	padding: 0;
 	margin: 0;
@@ -1678,6 +1687,7 @@ label.compact-form-label, .preface-top input {
 }
 
 #edit-submit-dt-project-page, #edit-submit-user-page {
+  font-family: 'DaysRegular';
   margin-top: 1em;
 }
 
@@ -2005,4 +2015,184 @@ div.poll div.bar div.foreground {
   padding: 0.5em;
   text-decoration: none;
   text-transform: uppercase;
+}
+/* para se livrar da mensagem do og */
+.node-type-dt-project .messages.status {
+  display: none;
+}
+/* bloco de habilidades */
+#block-views-dt_project_skills-block_1 .skills {
+  font-weight: bold;
+}
+/* bloco de criar um novo projeto */
+#block-thacker_project-0 a {
+  font-family: 'DaysRegular';
+}
+
+/* Desfazendo o nó da frontpage */
+.front #sidebar-last {
+  margin-top: 4em;
+}
+
+#block-views--exp-dt_project_page-page_1 #edit-tid-1 {
+  background-color: white;
+  border: medium none;
+  color: #004F79;
+  font-weight: bold;
+  font-size: 1.5em;
+  padding: 2px;
+}
+
+form.js-processed input[type="submit"] {
+  margin: 0 !important;
+}
+
+#views-exposed-form-dt-event-page-page-1 #edit-submit-dt-event-page { margin-top: 0; }
+
+#views-exposed-form-dt-event-page-page-1  label {
+  float: left;
+  font-size: 1.5em;
+  font-weight: bold;
+  line-height: 1.5em;
+  margin-right: 0.5em;
+}
+
+#views-exposed-form-dt-event-page-page-1  label + .views-widget{
+  float: left;
+}
+
+#view-id-dt_event_page-page_1 .event {
+  position: relative;
+}
+#view-id-dt_event_page-page_1 .description {
+  position: absolute;
+  bottom: 5px;
+  left: 5px;
+  right: 5px;
+  padding: 5px;
+  background-color: #1786C1;
+  color: white;
+}
+#view-id-dt_event_page-page_1 .title {
+  height: 37px;
+} 
+#view-id-dt_event_page-page_1 .title a {
+  font-size: 1.1em;
+  font-weight: bold;
+  text-decoration: none;
+  color: white;
+  font-style: normal;
+}
+#view-id-dt_event_page-page_1 .body {
+  height: 3em;
+  overflow: hidden;
+}
+#view-id-dt_event_page-page_1 .date {
+  background-color: #1786C1;
+  color: white;
+  font-size: 1.5em;
+  line-height: 1em;
+  padding: 0.25em;
+  position: absolute;
+  right: 5px;
+  text-align: center;
+  top: 5px;
+  border-color: #4736C1;
+  border-style: none none solid solid;
+  border-width: 1px;
+  text-transform: uppercase;
+}
+
+
+/* Blog */
+
+#view-id-blog-page_1 .post {
+  margin-bottom: 1em;
+}
+#view-id-blog-page_1 .title a {
+  font-family: 'DaysRegular';
+  font-size: 2em;
+  line-height: 1em;
+  text-decoration: none;
+  font-style: normal;
+}
+#view-id-blog-page_1 .title {
+  margin-bottom: .5em;
+} 
+#view-id-blog-page_1 .avatar {
+  display: inline-block;
+  height: 38px;
+  vertical-align: middle;
+}
+#view-id-blog-page_1 .picture {
+  display: inline;
+}
+#view-id-blog-page_1 .teaser {
+  font-size: 14px;
+  line-height: 21px;
+}
+body.node-type-thacker-blog .node.full-node.node-type-thacker_blog .content {
+  font-family: Verdana, Tahoma, "DejaVu Sans", sans-serif;
+  font-size: 14px;
+  line-height: 21px;
+}
+
+/* User Profile Widgets */
+#block-views-profile_current_signups-block .content {
+  padding: 0;
+}
+#block-views-profile_current_signups-block .event {
+  padding: 8px;
+}
+#block-views-profile_current_signups-block .event.odd {
+  background-color: #dce6dc;
+}
+#block-views-profile_current_signups-block .country-name {
+  display: none;
+} 
+#block-views-profile_current_signups-block .details {
+  text-align: right;
+}
+#block-views-profile_current_signups-block .details a {
+  font-size: 0.8em;
+}
+#block-views-profile_skills-block_1 .skill a {
+  text-transform: capitalize;
+}
+
+#openlayers-container-openlayers-map-auto-id-1 .olControlAttribution {
+  bottom: 0.5em;
+  left: 0.5em;
+}
+
+.node-type-profile #edit-field-street-address-0-value {
+  background-color: #eee;
+}
+.node-type-profile .field.field-field-city,
+.node-type-profile .field.field-field-city div,
+.node-type-profile .field.field-field-country, 
+.node-type-profile .field.field-field-country div {
+  display: inline;
+  margin: 0;
+}
+
+.node-type-profile .field-field-city:after {
+  content: ","
+}
+
+.node-type-profile .profile-avatar {
+  float: left;
+  width: 202px;
+}
+
+.node-type-profile .inner {
+  overflow: hidden;
+}
+.node-type-profile h1.title {
+  margin-bottom: -1em;
+  margin-left: 210px;
+} 
+.node-type-profile .profile-avatar + .content {
+  margin-left: 210px;
+  margin-top: 2em;
 }

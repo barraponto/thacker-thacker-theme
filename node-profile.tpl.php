@@ -4,7 +4,7 @@
 
 <div id="node-<?php print $node->nid; ?>" class="node <?php print $node_classes; ?>">
   <div class="inner">
-    <?php print $picture ?>
+    <div class="profile-avatar"><?php print $profile_user_picture ?></div>
 
     <?php if ($page == 0): ?>
     <h2 class="title"><a href="<?php print $node_url ?>" title="<?php print $title ?>"><?php print $title ?></a></h2>
@@ -25,12 +25,12 @@
     <?php endif; ?>
 
     <div class="content clearfix">
-      <?php  print $content ?>
+      <?php print $content ?>
     </div>
 
     <?php if ($terms): ?>
     <div class="terms">
-      <?php //print $terms; ?>
+      <?php print $terms; ?>
     </div>
     <?php endif;?>
 
